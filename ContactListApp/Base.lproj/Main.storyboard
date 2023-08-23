@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Person List-->
+        <!--Persons List-->
         <scene sceneID="fgv-BD-R5s">
             <objects>
                 <tableViewController id="brr-M9-OU9" customClass="ContactListViewController" customModule="ContactListApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -34,7 +34,9 @@
                             <outlet property="delegate" destination="brr-M9-OU9" id="GzH-Ch-LZH"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Person List" id="T58-hV-Krd"/>
+                    <navigationItem key="navigationItem" title="Persons List" id="T58-hV-Krd">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="PMZ-RR-qK6"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HSB-Ua-hf7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
